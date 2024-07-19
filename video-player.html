@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic Page Info -->
+	<meta charset="utf-8">
+	<title>Dashboard</title>
+
+	<!-- Site favicon -->
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="vendors/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/images/favicon-16x16.png"> -->
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-119386393-1');
+	</script>
+	<link rel="stylesheet" type="text/css" href="src/plugins/plyr/dist/plyr.css">
+</head>
+<body>
+
+
+	
+	<div class="header">
+		<div class="header-left">
+			<div class="menu-icon dw dw-menu"></div>
+			<div class="search-toggle-icon dw dw-search2" data-toggle="header_search"></div>
+			<div class="header-search">
+				
+					<div class="form-group mb-0">
+						<i class="dw dw-search2 search-icon"></i>
+						<input type="text" class="form-control search-input" placeholder="Search Here">
+						
+					</div>
+				
+			</div>
+		</div>
+		<div class="header-right">
+			
+		
+			<div class="user-info-dropdown">
+				<div class="dropdown">
+					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+						<span class="user-icon">
+							<img src="vendors/images/photo1.jpg" alt="">
+						</span>
+						<span class="user-name">Johnny Brown</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+						<a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
+						<a class="dropdown-item" href="profile.html"><i class="dw dw-settings2"></i> Setting</a>
+						<a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a>
+						<a class="dropdown-item" href="login.html"><i class="dw dw-logout"></i> Log Out</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+
+	<div class="left-side-bar">
+		<div class="brand-logo">
+			<a href="index.html">
+				<!-- <img src="vendors/images/deskapp-logo.svg" alt="" class="dark-logo">
+				<img src="vendors/images/deskapp-logo-white.svg" alt="" class="light-logo"> -->
+				<h1 style="color: rgb(255, 252, 252);">LOGO</h1>
+			</a>
+			<div class="close-sidebar" data-toggle="left-sidebar-close">
+				<i class="ion-close-round"></i>
+			</div>
+		</div>
+		<div class="menu-block customscroll">
+			<div class="sidebar-menu" >
+				<ul id="accordion-menu" >
+					<li>
+						<a href="index.html" class="dropdown-toggle no-arrow active">
+							<span class="micon dw dw-house-1"></span><span class="mtext">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="allCourses.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-edit-2"></span><span class="mtext">All Courses</span>
+						</a>
+					</li>
+					<li>
+						<a href="allCourses.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-edit-2"></span><span class="mtext">Courses Enrolled</span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="ui-cards.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-library"></span><span class="mtext">Tests</span>
+						</a>
+					</li>
+					<li>
+						<a href="study.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-browser2"></span><span class="mtext">Study Materials</span>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-menu-overlay"></div>
+
+	<div class="main-container">
+		<div class="pd-ltr-20 customscroll-10-p height-100-p xs-pd-20-10">
+			<div class="min-height-200px">
+				<div class="page-header">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="title">
+								<h4>All Lectures</h4>
+							</div>
+							<nav aria-label="breadcrumb" role="navigation">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li class="breadcrumb-item" aria-current="page">All Courses</li>
+                                    <li class="breadcrumb-item" aria-current="page">Playlist Details</li>
+									<li class="breadcrumb-item active" aria-current="page">Playlist Video</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+				<div class="pd-20 card-box mb-30">
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								
+								<video poster="" controls crossorigin>
+									<source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+									<source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+								</video>
+								<h5 class="mt-3">Video 1: Introduction to HTML</h5>
+								<hr>
+							</div>
+							
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							
+							
+							<div class="col-md-6">
+                                <div class="tutor d-flex align-items-center">
+                                    <img src="./src/images/photo1.jpg" alt="Tutor Image" class="rounded-circle img-fluid" style="width: 80px; height: 80px;">
+                                    <div class="ms-3">
+                                        <h3 class="m-0">John Deo</h3>
+                                        <p class="m-0">HTML Expert</p>
+                                    </div>
+                                </div>
+								<a href="playListDetails.html" class="btn btn-primary mt-3">View Playlist</a>
+                            </div>
+							<hr>
+						</div>
+						
+				</div>
+			</div>
+				
+				
+
+			
+
+			</div>
+			<div class="footer-wrap pd-20 mb-20 card-box">
+				<a href="https://github.com/dropways" target="_blank">Mandate IT Solutions2024 All rights Reserved</a>
+		   </div>
+		</div>
+	</div>
+	<!-- js -->
+	<script src="vendors/scripts/core.js"></script>
+	<script src="vendors/scripts/script.min.js"></script>
+	<script src="vendors/scripts/process.js"></script>
+	<script src="vendors/scripts/layout-settings.js"></script>
+	<script src="src/plugins/plyr/dist/plyr.js"></script>
+	<script src="https://cdn.shr.one/1.0.1/shr.js"></script>
+	<script>
+		plyr.setup({
+			tooltips: {
+				controls: !0
+			},
+		});
+	</script>
+</body>
+</html>
